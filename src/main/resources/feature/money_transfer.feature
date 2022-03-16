@@ -6,3 +6,4 @@ Feature: transfer a lot of money
     And I have 1000 on savingAccount
     When I transfer 500 from currentAccount to savingAccount
     Then transfer is executed
+    And Statement appear "A lot of money"
